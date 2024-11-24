@@ -22,14 +22,15 @@ function App() {
   }
 
   // Function to handle image click
-  function handleImageClick(clickedAnimalName) {
-    if (clickedAnimalName === targetAnimal) {
-      setResult("Win!");
-    } else {
-      setResult("Lose!");
+    function handleImageClick(clikedAnimalName) {
+      if (clikedAnimalName === targetAnimal) {
+        setResult("Win!");
+      }
+      else {
+        setResult("Lose!");
+      }
     }
-  }
-
+    
   return (
     <div className="app">
       <h1>Animal Matching Game</h1>
