@@ -30,7 +30,7 @@ function App() {
         setResult("Lose!");
       }
     }
-    
+
   return (
     <div className="app">
       <h1>Animal Matching Game</h1>
@@ -49,7 +49,7 @@ function App() {
       {result && (
         <div>
           <h2>{result}</h2>
-          <button onClick={initializeGame}>Play Again</button>
+          <button onClick={initializeGame}> Play Again </button>
         </div>
       )}
     </div>
