@@ -1,0 +1,41 @@
+.app{
+  text-align: center;
+  font-family: Arial, 
+}
+
+.game-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.animal-name {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.animal-images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.animal-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border 0.3s;
+}
+
+.animal-image:hover {
+  border: 2px solid #000;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 28px;
+  font-weight: bold;
+}
